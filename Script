@@ -4,7 +4,7 @@ if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
 fi
-tarball="ubuntu-rootfs.tar.xz"
+tarball="https://drive.google.com/file/d/17LTVdcHYH3XL_yZ8jTRfYHMMOf4hPFNq/view?usp=drivesdk"
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
 		echo "Download Rootfs, this may take a while base on your internet speed."
