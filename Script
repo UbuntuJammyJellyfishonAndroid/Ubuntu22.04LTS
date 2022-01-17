@@ -8,7 +8,6 @@ tarball="ubuntu-rootfs.tar.xz"
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
 		echo "Download Rootfs, this may take a while base on your internet speed."
-		esac
 		wget "https://drive.google.com/file/d/17LTVdcHYH3XL_yZ8jTRfYHMMOf4hPFNq/view?usp=drivesdk" -O $tarball
 	fi
 	cur=`pwd`
